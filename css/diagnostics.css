@@ -1,0 +1,197 @@
+.wrapper {
+    /* display: grid; */
+    grid-template-columns: 70% 30% ;
+    /* grid-template-columns: repeat(1fr 1fr); */
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-auto-rows: minmax(10px, auto);
+}
+
+.wrapper > div {
+    background: #eee;
+    padding: 1em;
+}
+.wrapper >div:nth-child(odd){
+    background: #ddd;
+}
+
+select{
+  /* text-align: left; */
+  /* width: 150px; */
+  width: 200px;
+  /* overflow-wrap: break-word; */
+  font-size: 15px;
+
+}
+
+/*
+ * Diagnostic control styles
+ */
+ 
+ .application-sidebar .application-sidebar-contents .diagnostic-item {
+    background-color: #F5F5F5;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #E5E5E5;
+  }
+  
+  .application-sidebar .application-sidebar-contents .diagnostic-item:nth-child(even) {
+    background-color: #FFFFFF;
+  }
+  
+  .diagnostic-time {
+    font-weight: bold;
+  }
+  
+  .diagnostic-action {
+    font-weight: normal;
+    padding-left: 5px;
+  }
+  
+  .diagnostic-action-detail {
+    font-weight: bold;
+    padding-left: 5px;
+  }
+  
+  .diagnostic-target {
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 5px;
+  }
+  
+  .diagnostic-target-prefix {
+    color: darkgray;
+  }
+  
+  .diagnostic-message {
+    display: inline-block;
+    white-space: pre;
+    width: 100%;
+    height: 600px;
+    padding-left: 5px;
+    /* white-space: nowrap; */
+    /* overflow-x: scroll; */
+    overflow: auto;
+    /* overflow-wrap: break-word; */
+    word-wrap: break-word;
+    word-break: break-all;
+    /* text-overflow: clip; */
+    border: 1px solid pink;
+    /* position: absolute; */
+    right: 10px;
+    /* left: 1px; */
+    top: 50px;
+    z-index: 50;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10pt;
+    /* background: whitesmoke; */
+  }
+  
+/*
+ * Support for syntax highlighting of JSON representations.
+ */
+ 
+ .json-string {
+    color: green;
+  }
+  
+  .json-number {
+    color: darkorange;
+  }
+  
+  .json-boolean {
+    color: blue;
+  }
+  
+  .json-null {
+    color: magenta;
+  }
+  
+  .json-key {
+    color: red;
+  }
+
+body1{
+    /* background-color:#0c0129; */
+    /* background-image:url(../images/architecture-australia-backlit-634010.jpg); */
+    /* background-position:center; */
+    background-size:cover;
+    background-blend-mode:soft-light;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-size: 17px; */
+    line-height: 1.6;
+    /* margin: 2em 2em; */
+    /* padding: 0; */
+    /* margin: 0; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10pt;
+    /* color: gray; */
+    /* text-align: left; */
+    
+}
+
+/* *{
+  margin:0;
+  padding:0;
+  
+} */
+#attendantData {
+  border-collapse: collapse;
+  /* width: 800px; */
+  text-align: left;
+  /* border: 1px solid rgb(102, 20, 20); */
+  /* padding: 10px 10px; */
+  margin: 0px 20px 20px 20px;
+}
+#attendantInfo > table{
+  border: 1px solid blueviolet;
+
+}
+table{
+  text-align: left;
+  padding: .5em;
+  color: black;
+}
+/* td{
+  border: 1px solid blueviolet;
+  width: 200px;
+} */
+
+legend{
+    color: blue;   
+    text-align: right;
+}
+
+fieldset{
+    width: 200px;
+    border-radius: 10px;
+    /* text-align: center; */
+    /* background: #fff; */
+}
+label{
+    width: 100%;
+}
+/* input[type="text"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    background: aliceblue;
+}
+
+input[type="button"]{
+  background: coral;
+  padding: 1em 2em;
+  color:#fff;
+  border: 0;
+  border-radius: 10px;
+}
+
+input[type="button"]:hover{
+    background: #333;
+} */

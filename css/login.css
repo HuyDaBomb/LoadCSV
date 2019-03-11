@@ -1,0 +1,251 @@
+#loader{
+    position: absolute;
+    top: 42px;
+    left: 71px;
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+
+svg{
+    /* margin-right: 5px; */
+    /* position: absolute; */
+    float: right;
+    right: 50px;
+}
+
+ .toggle-btn{
+    position: absolute;
+    right: 200px;
+    top:20px;
+}
+ .toggle-btn span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #f9f;
+    margin: 5px 0px;
+}
+#dude1 {
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#login {
+    /* width: 275px; */
+    
+    position: absolute;
+    right: 10px;
+    /* left: 1px; */
+    top: 20px;
+    z-index: 100;
+    /* background-color: rgb(77, 88, 121); */
+    /* background-color:white; */
+    
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+#login a {
+    text-decoration: none;
+    /* float: left; */
+    /* display: inline-block; */
+}
+#login fieldset {
+    /* text-decoration: none; */
+    /* background-color:white; */
+    background-color:  rgb(193, 200, 219);
+
+}
+#login span {
+    /* text-decoration: none; */
+    /* background-color:rgb(22, 231, 32); */
+    padding: 10px 10px;
+
+    /*  */
+}
+#open {
+    margin: 10px;
+    
+    /* width: 275px; */
+    cursor: pointer;
+    /* background-image: url(../images/open.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 0px 50px; */
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: red;
+/* text-align: left;     */
+}
+
+#login .close {
+    /* background-image: url(../images/close.png); */
+    background-color: red;
+    /* width: 275px; */
+    
+}
+
+ #open:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(200, 200, 200);
+}
+
+#login form {
+    /* padding: 10px 10px 10px 10px; */
+    padding: 10px 10px 25px 25px;
+    display: none;
+    /* background-color:  rgb(77, 88, 121); */
+
+    
+}
+
+#login label {
+    font-size: .75em;
+    color: black;
+    font-weight: bold;
+    
+    text-align: left;
+    margin: 0 1px 0 0;
+    display: inline-block;
+ 
+}
+
+/* #userWorkgroupData td {
+    background-color: #fff;
+} */
+
+#userWorkgroupData td:hover {
+    background-color: #f9f;
+}
+
+/* #userData td {
+    background-color: #fff;
+} */
+
+#userData td:hover {
+    background-color: yellow;
+}
+
+/* #skillData td {
+    background-color: #fff;
+} */
+
+#skillData td:hover {
+    background-color: yellow;
+}
+
+/* .changed td {
+    background-color: pink;
+} */
+
+/* #login input[type="text"] {
+    font-size: 14px;
+    width: 100%;
+    border-radius: 5px;
+} */
+
+#login input[type="text"]{
+    /* margin-bottom: 15px; */
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid black;
+    /* text-align: center; */
+    background: aliceblue;
+}
+#login input[type="password"] {
+    padding: 10px;
+    /* font-size: 14px; */
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#login input[type="button"] {
+    text-align: center;
+    padding: 1em 2em;
+    background: grey;
+    color:#fff;
+    /* border: 1px solid red; */
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/* #login input[type="button"]:hover{ */
+
+#login .btn:hover{
+    /* background: #333; */
+    background: green;
+}
+
+#login .btn-disconnect:hover{
+    /* background: #333; */
+    background: red;
+}
+/* input{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0px;
+    text-align: center;
+} */
+.btn{
+    
+    padding: 1em 2em;
+    color:#fff;
+    border: 1;
+    /* padding: .5em 1em; */
+    margin: 4px;
+    border-radius: 5px;
+    width: 145px;
+}
+
+.btn-primary:hover{
+    background: #333;
+    /* background: aliceblue; */
+}
+
+.btn-primary{
+    background: rgb(49, 117, 245);
+    border-radius: 5px;
+    width: 200px;
+}
+
+.btn-secondary{
+    /* background: rgb(15, 42, 85); */
+    background: darkgray;
+    /* color: black; */
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* #login legend {
+    font-size: .75em;
+    color: white;
+    font-weight: bold;
+    
+    text-align: left;
+    margin: 0 0px 0 0;
+    display: inline-block;
+} */
+
+/* body {
+    font-family: "Segoe UI","Helvetica Neue",Helvetica,"Droid Sans",Arial,sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+   */

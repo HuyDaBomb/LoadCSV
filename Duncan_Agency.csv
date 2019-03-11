@@ -1,0 +1,5 @@
+Agency,AgencyDesignator,Status,Active,,MSB,Maintenance Mode,Duncan CS Workgroup,,Duncan CS Hours ,0,ExternalTransferNumber,,,HolidayGroup,CollesitonsPaymentProcessor,LanguageMenu,MainMenu,CitationLabel,LookupMethods,CardCombination,FAQDisputeMenu,FAQMoreMenu
+ALEXANDRIA,ALEXA,D,Y,Y,,N,,EST,2,12345,N,,Y,,,Y|Y|N|N|N|N|N|N|N,Y|Y|Y|N|N|Y|N|N,CITATION,Y|N|N|N|N|N|N|N|Y,Y|Y|N|N,Y|Y|Y|Y|Y|Y|Y|N|,Y|Y|Y|Y|N|N|N|N|
+ALHAMBRA,ALHAM,,Y,Y,,N,,PST,4,2,N,,Y,,,Y|Y|N|N|N|N|N|N|N,Y|Y|Y|N|N|Y|N|N,CITATION,Y|N|N|N|N|N|N|N|Y,Y|Y|N|N,Y|Y|Y|Y|Y|Y|Y|N|,Y|Y|Y|Y|N|N|N|N|
+ALHAMBRA,ALHAM,,Y,Y,,N,,PST,4,3,N,,Y,,,Y|Y|N|N|N|N|N|N|N,Y|Y|Y|N|N|Y|N|N,CITATION,Y|Y|N|N|N|N|N|N|Y,Y|Y|N|N,Y|Y|Y|Y|Y|Y|Y|N|,Y|Y|Y|Y|N|N|N|N|
+EVANSTON,EVANS,,Y,,,N,,EST,2,4,N,,Y,,,Y|Y|N|N|N|N|N|N|N,Y|Y|Y|Y|Y|Y|N|N,CITATION,Y|Y|N|N|N|N|N|N|Y,Y|Y|N|N,Y|Y|Y|Y|Y|Y|Y|N|,Y|Y|Y|Y|N|N|N|N|

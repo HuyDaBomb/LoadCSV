@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+html, body{
+    height:99%;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #f4f4f4; */
+    /* hide horizontal scroll bars */
+    /* overflow-x: hidden;  */
+    background: #333333;
+    color: #fff;
+    /* background-color:#73707c; */
+     /* background-color:#d4d4d4; */
+    /* background-image:url(architecture-blue-sky-building-310479.jpg); */
+    /* background-image:url(01big.jpg); */
+    /* background-position:center; */
+    /* background-size:cover; */
+    /* background-blend-mode:soft-light; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-size: 17px; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: 12pt;
+    /* line-height: 1.6; */
+}
+.icon-bar{
+    display: none;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+.icon-bar a{
+    float: left;
+    text-align: center;
+    /* divide 100% by 8 links = 12.5% */
+    width: 12.5%;  
+    color: white;
+    font-size: 36px;
+    /*top-bottom right-left*/
+    padding: 12px 0; 
+    transition: all 0.3s ease;
+}
+.icon-bar a:hover{
+background-color: #6b3b98;
+}
+
+.icon-bar .active{
+    background-color: #3b5998;
+}
+
+.navbar{
+    /* background-color:#6c81af; */
+    background-color: #3b5998;
+    /* background-image:url(architecture-blue-sky-building-310479.jpg); */
+    background-image:url(01citynight-crop-blue.jpg);
+    /* background-image:url(01big.jpg); */
+    background-position:center;
+    background-size:cover;
+    /* background-blend-mode: soft-light; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 17px; */
+    /* line-height: 1.6; */
+
+    /* background-color: #3b5998; */
+    height: 60px;
+    overflow: hidden;
+    /* overflow: auto; */
+    /* margin:0;
+    padding:0; */
+    /* position: fixed; */
+    /* left: 0; */
+    /* top: 0; */
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    /* background-color: rgba(57, 67, 75, 0.5); */
+    /* color:#00aeef; */
+    color: #f2f2f2;
+    /* color:#00aeef; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    /* width: 10%;  */
+    /* border-radius: 10px; */
+}
+
+.navbar ul{
+ margin: 8px 0 0 0;
+ list-style: none;
+ 
+}
+
+
+.navbar a:hover{
+    /* background-color: #ddd; */
+    /* color:rgb(225, 233, 117); */
+    background-color: rgb(57, 67, 75);
+    color:#00aeef;
+    /* color: #f2f2f2; */
+    /* background-color: #111; */
+    /* border-radius: 15px; */
+}
+
+.side-nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.side-nav ul li{
+    color: rgba(230,230,230,0.9);
+    list-style: none;
+    /* padding: 15px 10px; */
+    /* margin-left: -40px; */
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+.side-nav a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    color: #fff;
+    /* background-color: #3b5998; */
+    background-color: rgb(57, 67, 75);
+}
+.side-nav a.btn-close:hover{
+    /* color: #fff; */
+    background-color: #111;
+}
+.side-nav .btn-close{
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 46px;
+    margin-left: 50px;
+    /* background-color: black; */
+    /* padding: 1em; */
+}
+
+#main-huy{
+    transition: margin-left 0.5s;
+    /* padding: 20px 20px 0px 20px; */
+    /* overflow: hidden; */
+    /* width: 95%; */
+    /* border: 1px solid #3b5998; */
+    /* background-color:#d4d4d4; */
+    /* background-color: black; */
+    /* color: #ccc; */
+    /* background-image:url(01big.jpg);
+    background-position:center;
+    background-size:cover;
+    background-blend-mode: soft-light;
+    height: 1000px; */
+}
+
+#footer{
+    /* display: none; */
+    width: 100%;
+    background-color: #111;
+    color: #ccc;
+    /* margin-top: 10px; */
+    padding: 10px 0px 0 0;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* z-index: 0; */
+    
+    text-align: center;
+     background-color:#6c81af;
+     /* background-color: #3b5998; */
+     background-image:url(01citynight-crop.jpg);
+     /* background-image:url(NetworkInteract\ Logo-light-transparent-large.png); */
+     background-position:center;
+     background-size:cover;
+     /* background-blend-mode: soft-light; */
+}
+
+
+
+@media(max-width:568px){
+    .navbar-nav{display: none}
+}

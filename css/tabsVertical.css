@@ -1,0 +1,71 @@
+.tabContainer{
+    width: 100%;
+    /* height: 350px; */
+    box-sizing: border-box;
+    float: left;
+    border: none;
+    outline: none;
+    
+}
+
+.tabContainer .buttonContainer{
+    /* height: 1%; */
+    width: 100px;
+    /* box-sizing: border-box; */
+    float: left;
+    /* background-color: aliceblue; */
+    /* background-color: green; */
+}
+
+.tabContainer .buttonContainer button{
+    display: block;
+    /* background-color: inherit; */
+    background-color: aliceblue;
+    padding: 22px 16px;
+    width: 100%;
+    /* border: none; */
+    border-right: none;
+    text-align: left;
+    transition: 0.3s;
+    cursor: pointer;
+    outline: none; 
+    /* border: 1px solid red; */
+    /* border-radius: 10px; */
+    border-top-left-radius: 15px;
+    /* border-top-right-radius: 15px; */
+    border-bottom-left-radius: 15px;
+}
+.tabContainer .buttonContainer button:hover{
+    background-color: #d7d7d7;
+}
+
+.tabContainer .tabPanel{
+    /* height: 85%; */
+    /* background-color: gray; */
+    /* color: white; */
+    /* text-align: center; */
+    /* padding-top: 105px; */
+    /* width: 90%; */
+    /* box-sizing: border-box; */
+    display: none;
+}
+
+.tabContent{
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 1em;
+    /* height: 550px; */
+    border: 2px solid pink;
+    float: left;
+    /* border-left: none; */
+    width: 80%;
+    /* height: 300px; */
+    /* display: inherit; */
+    /* background-color: aliceblue; */
+    overflow: hidden;
+    /* box-sizing: border-box; */
+    /* margin-left: 100px; */
+    /* padding: 100px; */
+
+}
